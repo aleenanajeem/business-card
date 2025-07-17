@@ -1,44 +1,22 @@
-body {
-  margin: 0;
-  height: 100vh;
-  background-color: #f0f4f8;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aleena Alee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="profile-container">
+      <img src="me.jpg" alt="Aleena Alee" class="profile-img">
+    </div>
+    <h1>Aleena Alee</h1>
+    <p class="role">Web Developer &amp; UX Designer</p>
+    <p>Email: <a href="mailto:aleenaalee606@gmail.com">aleenaalee606@gmail.com</a></p>
+    <p class="website"><a href="https://aleenanajeem.github.io" target="_blank" rel="noopener">aleenanajeem.github.io</a></p>
+  </div>
+</body>
+</html>
 
-.card {
-  background-color: white;
-  padding: 30px;
-  border-radius: 15px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
 
-.card:hover {
-  transform: scale(1.05);
-}
-
-.profile-img {
-  width: 100px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-h1 {
-  margin: 10px 0 5px;
-}
-
-.role {
-  color: #555;
-  font-style: italic;
-  margin-bottom: 15px;
-}
-
-.website {
-  color: #0077cc;
-  font-weight: bold;
-}
